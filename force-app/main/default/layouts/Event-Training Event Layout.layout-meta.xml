@@ -8,7 +8,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>WhoId</field>
+                <field>WhatId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -18,6 +18,10 @@
                 <behavior>Required</behavior>
                 <field>StartDateTime</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Related_To_Name__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -26,7 +30,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>WhatId</field>
+                <field>WhoId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>

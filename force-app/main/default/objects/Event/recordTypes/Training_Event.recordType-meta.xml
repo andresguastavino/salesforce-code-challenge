@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Training_Event</fullName>
     <active>true</active>
+    <compactLayoutAssignment>Training_Event_Compact_Layout</compactLayoutAssignment>
     <label>Training Event</label>
     <picklistValues>
         <picklist>Subject</picklist>

@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Training</fullName>
     <active>true</active>
+    <compactLayoutAssignment>Training_Compact_Layout</compactLayoutAssignment>
     <label>Training</label>
     <picklistValues>
         <picklist>Family</picklist>
