@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upcoming_Trainings</fullName>
+    <columns>Related_To_Name__c</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>START_DATE_TIME</columns>
+    <columns>END_DATE_TIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Event.Training_Event</value>
+    </filters>
+    <filters>
+        <field>START_DATE_TIME</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>END_DATE_TIME</field>
+        <operation>lessThan</operation>
+        <value>NEXT_N_WEEKS:2</value>
+    </filters>
+    <label>Upcoming Trainings</label>
+</ListView>

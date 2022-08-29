@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home_Page_Default</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -9,14 +17,12 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Trainings Management</label>
     <navType>Console</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-Asset</tabs>
-    <tabs>standard-Event</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trainings_Management_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -25,9 +31,6 @@
         </mappings>
         <mappings>
             <tab>standard-Asset</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Event</tab>
         </mappings>
         <mappings>
             <tab>standard-Product2</tab>
