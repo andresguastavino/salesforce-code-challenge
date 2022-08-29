@@ -119,7 +119,8 @@
     </relatedContent>
     <relatedLists>
         <fields>PRODUCT2.NAME</fields>
-        <fields>Due_Date__c</fields>
+        <fields>Start__c</fields>
+        <fields>End__c</fields>
         <relatedList>Product2.Provider__c</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>

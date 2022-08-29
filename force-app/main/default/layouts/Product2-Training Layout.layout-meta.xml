@@ -13,13 +13,17 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Due_Date__c</field>
+                <field>Start__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Provider__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>End__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
