@@ -101,6 +101,12 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
+    <relatedLists>
+        <fields>ASSET.NAME</fields>
+        <fields>Training_Start__c</fields>
+        <fields>Training_End__c</fields>
+        <relatedList>RelatedAssetList</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>

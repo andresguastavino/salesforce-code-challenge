@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Product_Is_Training_Account_Attendee</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  Product2.RecordType.DeveloperName = &quot;Training&quot;,
+  OR(
+    Account.RecordType.DeveloperName &lt;&gt; &quot;Attendee&quot;,
+    ISNULL( AccountId )
+  )
+)</errorConditionFormula>
+    <errorMessage>An Asset from a Training Product must have an Attendee Account related</errorMessage>
+</ValidationRule>
