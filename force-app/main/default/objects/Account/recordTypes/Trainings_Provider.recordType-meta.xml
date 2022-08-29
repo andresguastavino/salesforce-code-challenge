@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Trainings_Provider</fullName>
     <active>true</active>
+    <compactLayoutAssignment>Training_Provider_Compact_Layout</compactLayoutAssignment>
     <label>Trainings Provider</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
