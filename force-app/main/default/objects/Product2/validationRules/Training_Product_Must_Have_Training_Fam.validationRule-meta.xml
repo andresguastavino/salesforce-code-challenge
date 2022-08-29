@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Product_Must_Have_Training_Fam</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Training&quot;,
+  NOT( ISPICKVAL( Family, &quot;Training&quot; ) )
+)</errorConditionFormula>
+    <errorDisplayField>Family</errorDisplayField>
+    <errorMessage>Family must be &quot;Training&quot; for a Product with Training Record Type</errorMessage>
+</ValidationRule>
