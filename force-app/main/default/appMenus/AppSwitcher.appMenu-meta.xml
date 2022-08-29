@@ -112,4 +112,8 @@
         <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Trainings_Management</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
