@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Event</fullName>
+    <active>true</active>
+    <label>Training Event</label>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>
