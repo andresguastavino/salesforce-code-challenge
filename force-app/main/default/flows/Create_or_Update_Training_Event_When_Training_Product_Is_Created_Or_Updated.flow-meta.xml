@@ -117,6 +117,7 @@
             <label>IS_NOT_NULL</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
         <name>FORM_IS_INSERT</name>
         <dataType>Boolean</dataType>
@@ -216,6 +217,7 @@
         <connector>
             <targetReference>IS_INSERT_OR_IS_UPDATE</targetReference>
         </connector>
+        <filterFormula>{!$Record.RecordType.DeveloperName} = &quot;Training&quot;</filterFormula>
         <object>Product2</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
